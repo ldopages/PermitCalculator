@@ -86,17 +86,17 @@ function GetPermit_Price() {
   }
 
   if (Valuation > 50001 && Valuation <= 100000) {
-    var PermitCost = (((Valuation - 50000) / 1000) * 4.50) + 294.50;
+    var PermitCost = (((Valuation - 50000) / 1000) * 4.50) + 306.75;
 
   }
 
   if (Valuation > 100001 && Valuation <= 500000) {
-    var PermitCost = (((Valuation - 100000) / 1000) * 3.50) + 519.50;
+    var PermitCost = (((Valuation - 100000) / 1000) * 3.50) + 544.25;
 
   }
 
   if (Valuation > 500001) {
-    var PermitCost = (((Valuation - 500000) / 1000) * 2.25) + 1919.50;
+    var PermitCost = (((Valuation - 500000) / 1000) * 2.25) + 2044.25;
 
   }
 
